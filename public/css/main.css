@@ -46,11 +46,11 @@ height: 100%;width: 100%;}
     animation: dash 5s linear forwards;}
     
 
-.txt_box{width: 525px;height: 120px;z-index: 2;top: 50%; left: 35%;}
-.txt_box .le{height: inherit;padding-right:20px;  border-right: 1px solid #ebebeb;}
-.txt_box .le p{font-size: 26px;color:#f9ed5f;line-height: 120px;margin: 0;}
-.txt_box .ri{margin:5px 0 5px 20px ; }
-.txt_box .ri img{width:100%;}
+.txt_box {width: 40%; z-index:2; border:1px solid #f00; top:50%; left:50%; transform:translate(-50%, -50%)}
+.txt_box > :first-child {border-right: 1px solid #ebebeb; width:50%; float:left;}
+.txt_box > :first-child p{font-size: 26px;color:#f9ed5f;line-height: 120px;margin: 0;}
+.txt_box > :last-child {width:50%; float:right;}
+.txt_box > :last-child img{width:100%;}
 .drop{}
 .drop1{width: 1183px;top: -0.1%; left: 0;}
 .drop1 img{width: 100%;}
@@ -84,12 +84,12 @@ background-size: cover;}
 .ab_tit{width: 100%;padding-top: 65px;}
 .ab_tit h1{font-weight: bold; font-size: 42px;color: #893c96;text-align: center; height: 75px;line-height: 75px; background-color: #f9ed5f;}
 
-.history_line{top:4.5%;left: 19.4%; 
-    stroke-dasharray:10000;/*애니메이션 총 길이*/
-    stroke-dashoffset: 1000; animation: dash1 5s linear infinite;}
+.history_line{top:4.5%;left: 19.4%; max-width:1211px; width:100%;
+    stroke-dasharray: 3000;/*애니메이션 총 길이*/
+    stroke-dashoffset: -3000; animation: dash1 5s linear alternate infinite; animation-delay:3s;}
 
-    .ab_grafic{top:6%; left: 19.8%;}
-.ab_grafic img{}
+    .ab_grafic{top:6%; left: 19.8%; max-width:1211px; width:100%;}
+.ab_grafic img{width:100%;}
 .ab_work{top: 65%;left: 18%;}
 .txt_top{}
 .txt_top div{display: inline-block;}
@@ -182,7 +182,7 @@ background-size: cover;}
   }
   @keyframes dash1 {
     from {
-        stroke-dashoffset: 10000;
+        stroke-dashoffset: -3000;
       }
       to {
         stroke-dashoffset: 0;
