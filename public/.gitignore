@@ -1,0 +1,8 @@
+.vscode
+connect.php
+dbconfig.php
+.htaccess
+sftp.json
+*.mp3
+*.psd
+*.ai
