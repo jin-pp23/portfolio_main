@@ -48,7 +48,8 @@ var WheelScroll = (function() {
 			}
 			obj.animation(obj, function() {
 				$(window).on("mousewheel DOMMouseScroll", wheelFn);
-				if ($(obj.page[obj.now]).data("fn")) {
+				var aniFn = $(obj.page[obj.now]).data("fn");
+				if (aniFn != undefined) {
 					window[$(obj.page[obj.now]).data("fn")]();
 				}
 			});
