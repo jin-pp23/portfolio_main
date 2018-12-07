@@ -2,7 +2,7 @@ var pages = new WheelScroll({
     page: ".page",
     nav:".nav",
     speed: 200
-    });
+});
     //var pages = new WhellScroll();
 /*
 var scTop = $(window).scrollTop();
