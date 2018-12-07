@@ -73,3 +73,31 @@
     at TCP.done [as _onclose] (_tls_wrap.js:360:7)
 [error] 
 [error] Error: An unexpected error has occurred.
+[debug] [2018-12-07T06:54:31.939Z] ----------------------------------------------------------------------
+[debug] [2018-12-07T06:54:31.944Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-12-07T06:54:31.945Z] CLI Version:   4.2.1
+[debug] [2018-12-07T06:54:31.945Z] Platform:      win32
+[debug] [2018-12-07T06:54:31.945Z] Node Version:  v8.12.0
+[debug] [2018-12-07T06:54:31.948Z] Time:          Fri Dec 07 2018 15:54:31 GMT+0900 (대한민국 표준시)
+[debug] [2018-12-07T06:54:31.948Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-12-07T06:54:31.995Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-07T06:54:31.997Z] > authorizing via signed-in user
+[debug] [2018-12-07T06:54:32.004Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-12-07T06:54:32.005Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2018-12-07T06:54:32.408Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-07T06:54:32.426Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/potfolio-pp23  
+ 
+[debug] [2018-12-07T06:54:33.460Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-07T06:54:33.464Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/potfolio-pp23  
+ 
+[debug] [2018-12-07T06:54:34.753Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\fbroot\포폴_js\ex05'...
+[info] 
+[debug] [2018-12-07T06:54:34.875Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/90937365158/clients/_:getWebAppConfig  
+ 
+[debug] [2018-12-07T06:54:35.567Z] <<< HTTP RESPONSE 200
+[info] i  hosting[potfolio-pp23]: Serving hosting files from: public
+[info] +  hosting[potfolio-pp23]: Local server: http://localhost:5000

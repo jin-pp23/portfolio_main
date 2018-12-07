@@ -44,10 +44,10 @@ function resultFn(data){
 			html += '</div>';
 			html += '<div class="prd_tit">'+li.title+'</div>';
 			html += '<div class="prd_cate">'+li.cate+'</div>';
-			html += '<div class="prd_price">';
-			html += '<span>'+li.price[0]+'</span>';
-			html += '<span>'+li.price[1]+'</span>';
-			html += '</div>';
+			// html += '<div class="prd_price">';
+			// html += '<span>'+li.price[0]+'</span>';
+			// html += '<span>'+li.price[1]+'</span>';
+			// html += '</div>';
 			html += '<div class="prd_hover">';
 			html += '<div class="prd_img">';
 			html += '<img src="'+li.img[1]+'" class="img prd_hover_img">';
@@ -55,14 +55,14 @@ function resultFn(data){
 			html += '<ul>';
 			html += '<li class="prd_compare">';
 			html += '<div>';
-			html += '<img src="images/project/prd/리얼 비.jpg"></div>';
+			html += '</div>';
 			html += '</li>';
 			html += '<li class="prd_tit">'+li.title+'</li>';
 			html += '<li class="prd_cate">'+li.cate+'</li>';
-			html += '<li class="prd_price">';
-			html += '<span>'+li.price[0]+'</span>';
-			html += '<span>'+li.price[1]+'</span>';
-			html += '</li>';
+			// html += '<li class="prd_price">';
+			// html += '<span>'+li.price[0]+'</span>';
+			// html += '<span>'+li.price[1]+'</span>';
+			// html += '</li>';
 			html += '<li class="prd_cont">';
 			html += li.cont;
 			html += '<div><i class="fa fa-ellipsis-h"></i></div>';
@@ -70,20 +70,20 @@ function resultFn(data){
 			html += '<li class="prd_detail">';
 			html += '<div>';
 			html += '<a href="#" data-toggle="tooltip" data-placement="top" title="Wishlist">';
-			html += '<img src="images/project/prd/리얼 비.jpgg"></a>';
+			html += '</a>';
 			html += '</div>';
 			html += '<ul>';
-			html += '<li>VIEW PRODUCT</li>';
-			html += '<li><i class="fa fa-shopping-cart"></i></li>';
+			html += '<li>VIEW MORE</li>';
+			html += '<li><i class="fa fa-arrows-alt"></i></li>';
 			html += '</ul>';
 			html += '<div>';
 			html += '<a href="#" data-toggle="tooltip" data-placement="top" title="View">';
-			html += '<img src="images/project/prd/리얼 비.jpg"></a>';
+			html += '</a>';
 			html += '</div>';
 			html += '</li>';
 			html += '</ul>';
 			html += '</div>';
-			if(li.pct > 0)html += '<div class="prd_pop">-'+li.pct+'%</div>';
+			// if(li.pct > 0)html += '<div class="prd_pop">-'+li.pct+'%</div>';
 			html += '</li> ';
 		}
 		html += '</ul>	';
@@ -116,7 +116,7 @@ function resultFn(data){
 		
 		$(".prd").hover(function(){
 			$(this).children(".prd_hover").stop().fadeIn(300);
-			$(this).find(".prd_compare").find("div").stop().animate({"top":"-43px"}, 300);	
+			$(this).find(".prd_compare").find("div").stop().animate({"top":"25px"}, 300);	
 			if($(this).find(".prd_cont")[0].offsetHeight < $(this).find(".prd_cont")[0].scrollHeight) {
 				console.log("overflow");
 				$(this).find(".prd_cont").children("div").stop().animate({"bottom":0}, 200);
