@@ -158,5 +158,3 @@ $(".drop").hover(function(){
 function(){
     $(this).find(".drop2").stop().slideUp(1000);
 });
-
-

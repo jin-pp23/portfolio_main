@@ -24,11 +24,11 @@
 </head>
 
 <body>
-    <header class="w cl">
-        <ul class="ri">
-            <li class="le"><a href="#" class="nav"data-now="0">HELLO</a></li>
-            <li class="le"><a href="#" class="nav"data-now="1">ABOUT ME</a></li>
-            <li class="le"><a href="#" class="nav"data-now="2">PROJECT</a></li>
+    <header class="w abs">
+        <ul class="le">
+            <li><a href="#" class="nav"data-now="0">HELLO</a></li>
+            <li><a href="#" class="nav"data-now="1">ABOUT ME</a></li>
+            <li><a href="#" class="nav"data-now="2">PROJECT</a></li>
         </ul>
     </header>
 
@@ -38,12 +38,14 @@
                 <div class="he_main_txt abs">
                     <img src="images/img/hello_txt.png">
                 </div>
+                <div class="rel grafic_back ri">
                 <img src="images/hello/c1.png" class="c1 abs">
                 <img src="images/hello/c2.png" class="c2 abs">
                 <img src="images/hello/c3.png" class="c3 abs">
                 <img src="images/hello/c4.png" class="c4 abs">
                 <img src="images/hello/c5.png" class="c5 abs">
                 <img src="images/hello/c6.png" class="c6 abs">
+                </div>
                 <div class="he_main_ban abs">
                     <img src="images/hello/main.png">
                 </div>
@@ -73,7 +75,10 @@
 
         <div class="about page">
             <div class="about_me rel">
-                <div class="about_abs">
+                <div class="ab_main_title abs">
+                  <img src="images/about/title.png" >
+                </div>
+                <div class="rel grafic_back le">
                     <img src="images/about/a1.png"class="a1 abs">
                     <img src="images/about/a2.png"class="a2 abs">
                     <img src="images/about/a3.png"class="a3 abs">
@@ -94,8 +99,11 @@
 </svg>  
                 <img src="images/about/a4.png"class="a8 abs">           
                 </div>
-                <img src="images/about/main.png">
-                <img src="images/about/title.png" class="abs ab_main_title">
+                <div class="ab_main_ban abs">
+                     <img src="images/about/main1.png">
+                </div>
+               
+                
             </div>
 
             <div class="time_line page">
@@ -104,6 +112,7 @@
                         <h1>My TimeLine</h1>
                     </div>
                     <div class="rel rel_back">
+                        <div class="history_rel">
                             <svg version="1.1" class="abs history_line" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                             viewBox="0 0 1236 612" enable-background="new 0 0 1236 612" xml:space="preserve">
                        <path fill="none" stroke="#7D2A8F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
@@ -121,8 +130,9 @@
                         <div class="ab_grafic abs">
                             <img src="images/about/history.png">
                         </div>
-
-                        <div class="ab_work abs page" data-fn="chartAni">
+                        </div>
+                        <div class="page ab_work_pe abs" data-fn="chartAni">
+                        <div class="ab_work">
                             <div class="txt_top">
                                 <div>
                                     <h2>WORK</h2>
@@ -166,18 +176,23 @@
                             </div>
                         </div>
                     </div>
+                    </div>
                 </div>
             </div>
 
             <div class="project">
-                <div class="pro rel page">
+                <div class="rel pro_rel">
+                    <div class="abs pro_tit">
+                            <img src="images/project/title.png">
+                        </div>
+                <div class="pro rel page">     
                     <div class="pro_abs">
                         <img src="images/project/p1.png" class="pr1 abs">
                         <img src="images/project/p2.png" class="pr2 abs">
                         <img src="images/project/p3.png" class="pr3 abs">
                         <img src="images/project/p4.png" class="pr4 abs">
                         <img src="images/project/p5.png" class="pr5 abs">
-                        <img src="images/project/p6.png" class="pr6 abs">
+                   
                         <svg version="1.1" class="pr7 abs" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                         width="248px" height="177.5px" viewBox="0 0 248 177.5" enable-background="new 0 0 248 177.5" xml:space="preserve">
                    <path fill="none" stroke="#8AAD3E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
@@ -186,23 +201,28 @@
                        c15.334-9.332,24.667-0.666,24.667-0.666"/>
                    </svg>
                     </div>
-                    <img src="images/project/title.png" class="abs pro_tit">
-                    <img src="images/project/main.png" class="abs pro_main">
+                    <div class="abs pro_main">
+                         <img src="images/project/main.png" >   
+                       </div>
+                    
                 </div>
+                </div>
+                
                 <!-- 쇼핑몰처럼 하단에 포트폴리오 이미지 붙히기 -->
-                <div class="prds wrap page">
-                    <h5>WOODEN ACCESSORIES</h5>
-                    <h3>FEATURED CATEGORIES</h3>
-                    <h5>Visit our shop to see amazing creations from our designers.</h5>
+                <div class="prds_back page">
+                <div class="prds page">
+                    <h3>PROJECT</h3>
+                    <h5>Visit our project to see amazing creations from our designers.</h5>
                     <ul class="prd_nav">
-                        <li>BEST SELLERS<div></div></li>
-                        <li>FEATURED<div></div></li>
-                        <li>SALES<div></div></li>
+                        <li>Web<div></div></li>
+                        <li>Poster<div></div></li>
+                        <li>Book<div></div></li>
                     </ul>
                     <div class="prd_out_wrap hei-wrap">
             
                     </div>
                 </div>
+            </div>
             </div>
             
     </section>
