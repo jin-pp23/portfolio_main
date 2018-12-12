@@ -1,6 +1,4 @@
-/*********modal******** */
-function modalOpen(){$(".modal1").show(0);}
-function modalClose(){$(".modal1").hide(0);}
+
 /*****Products *****/
 
 //쓸데없는 작업
@@ -76,7 +74,8 @@ function resultFn(data){
 			html += '<a href="#" data-toggle="tooltip" data-placement="top" title="Wishlist">';
 			html += '</a>';
 			html += '</div>';
-			html += '<ul onclick="linkFn(this);" data-link="'+li.link+'">';
+			if(li.target == "") html += '<ul onclick="linkFn(this);" data-link="'+li.link+'">';
+			else html += '<ul onclick="modalFn(this);" data-link="'+li.link+'">';
 			html += '<li>VIEW MORE</li>';
 			html += '<li><i class="fa fa-arrows-alt"></i></li>';
 			html += '</ul>';
@@ -168,4 +167,18 @@ function linkFn(obj) {
 	var linkAddr = $(obj).data("link");
 	console.log(linkAddr);
 	window.open(linkAddr);
+}
+
+$(".modal_close").click(function(){
+	$(".modal").hide();
+});
+
+
+function modalFn(obj) {
+	console.log(obj);
+	var id = $(obj).data("link");
+	var cont = $(id).clone().css({"display":"block"});
+	$(".modal_content").html(cont);
+	$(".modal").css({"display":"table"});
+	$(".modal_body").css({"animation-name":"modalOpen"});
 }

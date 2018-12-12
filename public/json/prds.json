@@ -6,67 +6,58 @@
             "title": "NCS Song Poster",
             "cate": "poster",
              "cont": "Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.",
-             "link":"https://naver.com"
+             "link":"#cont1",
+             "target":"modal"
+
         }, {
-            "img": ["images/project/prd/NCS 송 포스터.jpg", "images/project/prd/NCS 송 포스터.jpg"],
+            "img": ["images/project/prd/a_blue.jpg", "images/project/prd/a_blue.jpg"],
             "title": "아카데미 Poster",
             "cate": "poster",
             "cont": "Himenaeos parturient nam a justo placerat lorem erat pretium a fusce pharetra pretium enim sagittis ut nunc neque torquent sem a leo. Dictumst himenaeos primis torquent ridiculus.",
-            "link":"https://daum.com"
+            "link":"#cont2",
+            "target":"modal"
+        }, {
+            "img": ["images/project/prd/green.jpg", "images/project/prd/green.jpg"],
+            "title": "아카데미 Poster",
+            "cate": "poster",
+            "cont": "Himenaeos parturient nam a justo placerat lorem erat pretium a fusce pharetra pretium enim sagittis ut nunc neque torquent sem a leo. Dictumst himenaeos primis torquent ridiculus.",
+            "link":"#cont3",
+            "target":"modal"
         }, {
             "img": ["images/project/prd/유니테크 파랑.jpg", "images/project/prd/유니테크 파랑.jpg"],
             "title": "유니테크 Poster",
             "cate": "poster",
             "cont": "Himenaeos parturient nam a justo placerat lorem erat pretium a fusce pharetra pretium enim sagittis ut nunc neque torquent sem a leo. Dictumst himenaeos primis torquent ridiculus.",
-            "link":"https://naver.com"
-        }, {
-            "img": ["images/project/prd/유니테크 파랑.jpg", "images/project/prd/유니테크 파랑.jpg"],
-            "title": "유니테크 Poster",
-            "cate": "poster",
-            "cont": "Himenaeos parturient nam a justo placerat lorem erat pretium a fusce pharetra pretium enim sagittis ut nunc neque torquent sem a leo. Dictumst himenaeos primis torquent ridiculus.",
-            "link":"https://naver.com"
+            "link":"#cont4",
+            "target":"modal"
         }, {
             "img": ["images/project/prd/NCS 송 포스터.jpg", "images/project/prd/NCS 송 포스터.jpg"],
             "title": "NCS Song Poster",
             "cate": "poster",
             "cont": "Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.",
-            "link":"https://naver.com"
+            "link":"https://naver.com",
+            "target":""
         }, {
             "img": ["images/project/prd/NCS 송 포스터.jpg", "images/project/prd/NCS 송 포스터.jpg"],
             "title": "NCS Song Poster",
             "cate": "poster",
             "cont": "Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.",
-            "link":"https://naver.com"
+            "link":"https://naver.com",
+            "target":""
         }, {
             "img": ["images/project/prd/NCS 송 포스터.jpg", "images/project/prd/NCS 송 포스터.jpg"],
             "title": "NCS Song Poster",
             "cate": "poster",
             "cont": "Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.",
-            "link":"https://naver.com"
+            "link":"https://naver.com",
+            "target":""
         }, {
             "img": ["images/project/prd/NCS 송 포스터.jpg", "images/project/prd/NCS 송 포스터.jpg"],
             "title": "NCS Song Poster",
             "cate": "poster",
             "cont": "Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.",
-            "link":"https://naver.com"
-        }, {
-            "img": ["images/project/prd/NCS 송 포스터.jpg", "images/project/prd/NCS 송 포스터.jpg"],
-            "title": "NCS Song Poster",
-            "cate": "poster",
-            "cont": "Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.",
-            "link":"https://naver.com"
-        }, {
-            "img": ["images/project/prd/NCS 송 포스터.jpg", "images/project/prd/NCS 송 포스터.jpg"],
-            "title": "NCS Song Poster",
-            "cate": "poster",
-            "cont": "Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.",
-            "link":"https://naver.com"
-        }, {
-            "img": ["images/project/prd/NCS 송 포스터.jpg", "images/project/prd/NCS 송 포스터.jpg"],
-            "title": "NCS Song Poster",
-            "cate": "poster",
-            "cont": "Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.",
-            "link":"https://naver.com"
+            "link":"https://naver.com",
+            "target":""
         }]
     }, {
         "title": "FEATURED",
@@ -74,38 +65,31 @@
             "img": ["images/project/prd/NCS 송 포스터.jpg", "images/project/prd/NCS 송 포스터.jpg"],
             "title": "NCS Song Poster",
             "cate": "poster",
-            "cont": "Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.",
-            "link":"https://naver.com"
+             "cont": "Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.",
+             "link":"#cont1",
+             "target":"modal"
+
         }, {
-            "img": ["images/project/prd/NCS 송 포스터.jpg", "images/project/prd/NCS 송 포스터.jpg"],
-            "title": "NCS Song Poster",
+            "img": ["images/project/prd/a_blue.jpg", "images/project/prd/a_blue.jpg"],
+            "title": "아카데미 Poster",
             "cate": "poster",
-            "cont": "Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.",
-            "link":"https://naver.com"
+            "cont": "Himenaeos parturient nam a justo placerat lorem erat pretium a fusce pharetra pretium enim sagittis ut nunc neque torquent sem a leo. Dictumst himenaeos primis torquent ridiculus.",
+            "link":"#cont2",
+            "target":"modal"
         }, {
-            "img": ["images/project/prd/NCS 송 포스터.jpg", "images/project/prd/NCS 송 포스터.jpg"],
-            "title": "NCS Song Poster",
+            "img": ["images/project/prd/green.jpg", "images/project/prd/green.jpg"],
+            "title": "아카데미 Poster",
             "cate": "poster",
-            "cont": "Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.",
-            "link":"https://naver.com"
+            "cont": "Himenaeos parturient nam a justo placerat lorem erat pretium a fusce pharetra pretium enim sagittis ut nunc neque torquent sem a leo. Dictumst himenaeos primis torquent ridiculus.",
+            "link":"#cont3",
+            "target":"modal"
         }, {
-            "img": ["images/project/prd/NCS 송 포스터.jpg", "images/project/prd/NCS 송 포스터.jpg"],
-            "title": "NCS Song Poster",
+            "img": ["images/project/prd/유니테크 파랑.jpg", "images/project/prd/유니테크 파랑.jpg"],
+            "title": "유니테크 Poster",
             "cate": "poster",
-            "cont": "Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.",
-            "link":"https://naver.com"
-        }, {
-            "img": ["images/project/prd/NCS 송 포스터.jpg", "images/project/prd/NCS 송 포스터.jpg"],
-            "title": "NCS Song Poster",
-            "cate": "poster",
-            "cont": "Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.",
-            "link":"https://naver.com"
-        }, {
-            "img": ["images/project/prd/NCS 송 포스터.jpg", "images/project/prd/NCS 송 포스터.jpg"],
-            "title": "NCS Song Poster",
-            "cate": "poster",
-            "cont": "Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.",
-            "link":"https://naver.com"
+            "cont": "Himenaeos parturient nam a justo placerat lorem erat pretium a fusce pharetra pretium enim sagittis ut nunc neque torquent sem a leo. Dictumst himenaeos primis torquent ridiculus.",
+            "link":"#cont4",
+            "target":"modal"
         }]
     }, {
         "title": "SALES",
@@ -114,49 +98,57 @@
             "title": "NCS Song Poster",
             "cate": "poster",
             "cont": "Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.",
-            "link":"https://naver.com"
+            "link":"https://naver.com",
+            "target":""
         }, {
             "img": ["images/project/prd/NCS 송 포스터.jpg", "images/project/prd/NCS 송 포스터.jpg"],
             "title": "NCS Song Poster",
             "cate": "poster",
             "cont": "Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.",
-            "link":"https://naver.com"
+            "link":"https://naver.com",
+            "target":""
         }, {
             "img": ["images/project/prd/NCS 송 포스터.jpg", "images/project/prd/NCS 송 포스터.jpg"],
             "title": "NCS Song Poster",
             "cate": "poster",
             "cont": "Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.",
-            "link":"https://naver.com"
+            "link":"https://naver.com",
+            "target":""
         }, {
             "img": ["images/project/prd/NCS 송 포스터.jpg", "images/project/prd/NCS 송 포스터.jpg"],
             "title": "NCS Song Poster",
             "cate": "poster",
             "cont": "Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.",
-            "link":"https://naver.com"
+            "link":"https://naver.com",
+            "target":""
         }, {
             "img": ["images/project/prd/NCS 송 포스터.jpg", "images/project/prd/NCS 송 포스터.jpg"],
             "title": "NCS Song Poster",
             "cate": "poster",
             "cont": "Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.",
-            "link":"https://naver.com"
+            "link":"https://naver.com",
+            "target":""
         }, {
             "img": ["images/project/prd/NCS 송 포스터.jpg", "images/project/prd/NCS 송 포스터.jpg"],
             "title": "NCS Song Poster",
             "cate": "poster",
             "cont": "Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.",
-            "link":"https://naver.com"
+            "link":"https://naver.com",
+            "target":""
         }, {
             "img": ["images/project/prd/NCS 송 포스터.jpg", "images/project/prd/NCS 송 포스터.jpg"],
             "title": "NCS Song Poster",
             "cate": "poster",
             "cont": "Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.",
-            "link":"https://naver.com"
+            "link":"https://naver.com",
+            "target":""
         }, {
             "img": ["images/project/prd/NCS 송 포스터.jpg", "images/project/prd/NCS 송 포스터.jpg"],
             "title": "NCS Song Poster",
             "cate": "poster",
             "cont": "Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.",
-            "link":"https://naver.com"
+            "link":"https://naver.com",
+            "target":""
         }]
     }]
 }
