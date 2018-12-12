@@ -3,6 +3,9 @@ function modalOpen(){$(".modal1").show(0);}
 function modalClose(){$(".modal1").hide(0);}
 /*****Products *****/
 
+//쓸데없는 작업
+
+
 var Ajax = (function(){
 	function Ajax(_file) {
 		this.file = _file;
