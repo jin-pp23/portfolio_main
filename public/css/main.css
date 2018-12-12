@@ -94,7 +94,7 @@ background-size: cover;}
 
 .ab_grafic{top:6%; left: 18%; max-width:1200px; width:100%;}
 .ab_grafic img{width:100%;}
-.ab_work{top: 65%;left: 18%;}
+.ab_work{top: 65%;left: 18%;transform: translateY(18%);}
 .ab_work_pe{padding-top: 50rem;top: 40%; left: 16%;}
 .txt_top{}
 .txt_top div{display: inline-block;}
@@ -289,7 +289,7 @@ background-size: cover;}
     .ab_main_ban img{width:100%;}
     .txt_top{width:100%;} 
  
-    .wrap{width:100%;}
+    .wrap{width:100%;height: 100%;}
 
     .about_me{height:  397px;}
     .grafic_back{position: absolute;}
@@ -302,8 +302,13 @@ background-size: cover;}
     .about_back{height: 470px;}
     .about_back img{height:100%;}
     .ab_work_pe{padding: 0;}
-    .ab_work h2{font-size: 16px;}
-    .ab_work p{font-size: 12px;}
+    .txt_top div h2,.txt-bottom h2{font-size: 12px;margin: 0;}
+    .txt_top div p{font-size: 10px;}
+    .txt_top div:nth-child(2){margin: 0;}
+    .wrap p{font-size: 12px;}
+    .prd{width: 100%;}
+
+
 }
 
 
