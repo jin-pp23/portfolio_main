@@ -1,5 +1,6 @@
-
-
+/*********modal******** */
+function modalOpen(){$(".modal1").show(0);}
+function modalClose(){$(".modal1").hide(0);}
 /*****Products *****/
 
 var Ajax = (function(){
@@ -72,7 +73,7 @@ function resultFn(data){
 			html += '<a href="#" data-toggle="tooltip" data-placement="top" title="Wishlist">';
 			html += '</a>';
 			html += '</div>';
-			html += '<ul>';
+			html += '<ul onclick="linkFn(this);" data-link="'+li.link+'">';
 			html += '<li>VIEW MORE</li>';
 			html += '<li><i class="fa fa-arrows-alt"></i></li>';
 			html += '</ul>';
@@ -158,3 +159,10 @@ $(".drop").hover(function(){
 function(){
     $(this).find(".drop2").stop().slideUp(1000);
 });
+
+
+function linkFn(obj) {
+	var linkAddr = $(obj).data("link");
+	console.log(linkAddr);
+	window.open(linkAddr);
+}
