@@ -147,12 +147,6 @@ function resultFn(data){
 		});
 		$('[data-toggle="tooltip"]').tooltip(); 
 	}
-	
-
-
-//history_line 자바로 짜봣는데 안됨
-// var path = document.querySelector('.history_line');
-// var length = path.getTotalLength()
 
 //drop paint
 $(".drop").hover(function(){
@@ -162,7 +156,7 @@ function(){
     $(this).find(".drop2").stop().slideUp(1000);
 });
 
-
+//project
 function linkFn(obj) {
 	var linkAddr = $(obj).data("link");
 	console.log(linkAddr);

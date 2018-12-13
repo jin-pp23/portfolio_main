@@ -135,7 +135,7 @@ background-size: cover;}
 /***** Featured Products *****/
 .prds_back{width: 100%;height: 100%;padding: 3%;}
 .prds {margin:0 auto; text-align:center;width: 66.66%;position: relative;}
-.prds > h5{color:#84b736;}
+
 .prds > h3 {color:#223770; padding:1rem 0; line-height:2rem;font-weight: bold;font-size:42px; }
 
 .prd_nav {margin-top:2rem;}
@@ -339,10 +339,11 @@ background-size: cover;}
 
     .wrap p{font-size: 12px;}
     .prd{width: 100%;}
-    .prds h5{display: none;}
     .prds_back{height: auto;}
     
-
+    .modal_get{width: 100%;height: auto;}
+    .modal_get img{width: 100%;}
+    .modal_body{height: 60%;}
 }
 
 
