@@ -1,8 +1,403 @@
+// var chartChk = true;
+// function chartAni() {
+// 	if (chartChk) {
+// 		//원 그래프
+// 		var data = [{
+// 			datasets: [{
+// 				data: [9, 1],
+// 				backgroundColor: [
+// 					'rgba(235, 235, 235, 1)',
+// 					'rgba(135, 145, 174, 1)'
+// 				],
+// 				borderColor: [
+// 					'rgba(235, 235, 235, 1)',
+// 					'rgba(135, 145, 174, 1)'
+// 				],
+// 				borderWidth: 1
+// 			}]
+// 		}, {
+
+// 			datasets: [{
+// 				data: [8, 2],
+// 				backgroundColor: [
+// 					'rgba(235, 235, 235, 1)',
+// 					'rgba(135, 145, 174, 1)'
+// 				],
+// 				borderColor: [
+// 					'rgba(235, 235, 235, 1)',
+// 					'rgba(135, 145, 174, 1)'
+// 				],
+// 				borderWidth: 1
+// 			}]
+// 		}, {
+
+// 			datasets: [{
+// 				data: [7, 3],
+// 				backgroundColor: [
+// 					'rgba(235, 235, 235, 1)',
+// 					'rgba(135, 145, 174, 1)'
+// 				],
+// 				borderColor: [
+// 					'rgba(235, 235, 235, 1)',
+// 					'rgba(135, 145, 174, 1)'
+// 				],
+// 				borderWidth: 1
+// 			}]
+// 		}, {
+
+// 			datasets: [{
+// 				data: [3, 7],
+// 				backgroundColor: [
+// 					'rgba(235, 235, 235, 1)',
+// 					'rgba(135, 145, 174, 1)'
+// 				],
+// 				borderColor: [
+// 					'rgba(235, 235, 235, 1)',
+// 					'rgba(135, 145, 174, 1)'
+// 				],
+// 				borderWidth: 1
+// 			}]
+// 		}, {
+
+// 			datasets: [{
+// 				data: [6, 4],
+// 				backgroundColor: [
+// 					'rgba(235, 235, 235, 1)',
+// 					'rgba(135, 145, 174, 1)'
+// 				],
+// 				borderColor: [
+// 					'rgba(235, 235, 235, 1)',
+// 					'rgba(135, 145, 174, 1)'
+// 				],
+// 				borderWidth: 1
+// 			}]
+// 		}, {
+
+// 			datasets: [{
+// 				data: [7, 3],
+// 				backgroundColor: [
+// 					'rgba(235, 235, 235, 1)',
+// 					'rgba(135, 145, 174, 1)'
+// 				],
+// 				borderColor: [
+// 					'rgba(235, 235, 235, 1)',
+// 					'rgba(135, 145, 174, 1)'
+// 				],
+// 				borderWidth: 1
+// 			}]
+// 		}];
+
+// 		var option = [{
+// 			tooltips: {
+// 				enabled: false
+// 			},
+// 			cutoutPercentage: 75,
+// 			rotation: 1.5 * Math.PI,
+// 			circumference: 2 * Math.PI,
+// 			animation: {
+// 				animateRotate: true,
+// 				animateScale: true
+// 			},
+// 			legend: {
+// 				display: false
+// 			},
+// 			reverse: false
+// 		}, {
+// 			tooltips: {
+// 				enabled: false
+// 			},
+// 			cutoutPercentage: 75,
+// 			rotation: -0.5 * Math.PI,
+// 			circumference: 2 * Math.PI,
+// 			animation: {
+// 				animateRotate: true,
+// 				animateScale: true
+// 			},
+// 			legend: {
+// 				display: false
+// 			}
+// 		}, {
+// 			tooltips: {
+// 				enabled: false
+// 			},
+// 			cutoutPercentage: 75,
+// 			rotation: -0.5 * Math.PI,
+// 			circumference: 2 * Math.PI,
+// 			animation: {
+// 				animateRotate: true,
+// 				animateScale: true
+// 			},
+// 			legend: {
+// 				display: false
+// 			}
+// 		}, {
+// 			tooltips: {
+// 				enabled: false
+// 			},
+// 			cutoutPercentage: 75,
+// 			rotation: -0.5 * Math.PI,
+// 			circumference: 2 * Math.PI,
+// 			animation: {
+// 				animateRotate: true,
+// 				animateScale: true
+// 			},
+// 			legend: {
+// 				display: false
+// 			}
+// 		}, {
+// 			tooltips: {
+// 				enabled: false
+// 			},
+// 			cutoutPercentage: 75,
+// 			rotation: -0.5 * Math.PI,
+// 			circumference: 2 * Math.PI,
+// 			animation: {
+// 				animateRotate: true,
+// 				animateScale: true
+// 			},
+// 			legend: {
+// 				display: false
+// 			}
+// 		}, {
+// 			tooltips: {
+// 				enabled: false
+// 			},
+// 			cutoutPercentage: 75,
+// 			rotation: -0.5 * Math.PI,
+// 			circumference: 2 * Math.PI,
+// 			animation: {
+// 				animateRotate: true,
+// 				animateScale: true
+// 			},
+// 			legend: {
+// 				display: false
+// 			}
+// 		}];
+// 		var chart = [];
+// 		$(".chart").each(function(i) {
+// 			$(this).css({
+// 				"transform": "rotateY(180deg)"
+// 			});
+// 			chart[i] = new Chart($(this), {
+// 				type: 'doughnut',
+// 				data: data[i],
+// 				options: option[i]
+// 			});
+// 		});
+// 		chartAni = false;
+// 	}
+// }
+
+var data = [{
+    datasets: [{
+        data: [9, 1],
+		backgroundColor: [
+			'rgba(235, 235, 235, 1)',
+			'rgba(135, 145, 174, 1)'
+		],
+		borderColor: [
+			'rgba(235, 235, 235, 1)',
+			'rgba(135, 145, 174, 1)'
+		],
+		borderWidth: 1
+    }]
+}, {
+    datasets: [{
+	data: [8, 2],
+	backgroundColor: [
+	'rgba(235, 235, 235, 1)',
+	'rgba(135, 145, 174, 1)'
+	],
+	borderColor: [
+	'rgba(235, 235, 235, 1)',
+	'rgba(135, 145, 174, 1)'
+	],
+	borderWidth: 1
+    }]
+}, {
+
+				datasets: [{
+					data: [7, 3],
+					backgroundColor: [
+						'rgba(235, 235, 235, 1)',
+						'rgba(135, 145, 174, 1)'
+					],
+					borderColor: [
+						'rgba(235, 235, 235, 1)',
+						'rgba(135, 145, 174, 1)'
+					],
+					borderWidth: 1
+				}]
+			}, {
+	
+				datasets: [{
+					data: [3, 7],
+					backgroundColor: [
+						'rgba(235, 235, 235, 1)',
+						'rgba(135, 145, 174, 1)'
+					],
+					borderColor: [
+						'rgba(235, 235, 235, 1)',
+						'rgba(135, 145, 174, 1)'
+					],
+					borderWidth: 1
+				}]
+			}, {
+	
+				datasets: [{
+					data: [6, 4],
+					backgroundColor: [
+						'rgba(235, 235, 235, 1)',
+						'rgba(135, 145, 174, 1)'
+					],
+					borderColor: [
+						'rgba(235, 235, 235, 1)',
+						'rgba(135, 145, 174, 1)'
+					],
+					borderWidth: 1
+				}]
+			}, {
+	
+				datasets: [{
+					data: [7, 3],
+					backgroundColor: [
+						'rgba(235, 235, 235, 1)',
+						'rgba(135, 145, 174, 1)'
+					],
+					borderColor: [
+						'rgba(235, 235, 235, 1)',
+						'rgba(135, 145, 174, 1)'
+					],
+					borderWidth: 1
+    }]
+}];
+var option = [{
+    tooltips: {
+        enabled: false
+    },
+    cutoutPercentage: 30,
+    rotation: -0.5 * Math.PI,
+    circumference: 1.4 * Math.PI,
+    animation: {
+        animateRotate: true,
+        animateScale: true
+    }
+}, {
+    legend: {
+        display: false
+    }
+}, {
+    title: {
+        display: true,
+        text: 'Custom Chart Title',
+        fontSize: 24,
+        fontColor: "#f00"
+    }
+}];
+var chart = [];
+
+		var option = [{
+			tooltips: {
+				enabled: false
+			},
+			cutoutPercentage: 75,
+			rotation: 1.5 * Math.PI,
+			circumference: 2 * Math.PI,
+			animation: {
+				animateRotate: true,
+				animateScale: true
+			},
+			legend: {
+				display: false
+			},
+			reverse: false
+		}, {
+			tooltips: {
+				enabled: false
+			},
+			cutoutPercentage: 75,
+			rotation: -0.5 * Math.PI,
+			circumference: 2 * Math.PI,
+			animation: {
+				animateRotate: true,
+				animateScale: true
+			},
+			legend: {
+				display: false
+			}
+		}, {
+			tooltips: {
+				enabled: false
+			},
+			cutoutPercentage: 75,
+			rotation: -0.5 * Math.PI,
+			circumference: 2 * Math.PI,
+			animation: {
+				animateRotate: true,
+				animateScale: true
+			},
+			legend: {
+				display: false
+			}
+		}, {
+			tooltips: {
+				enabled: false
+			},
+			cutoutPercentage: 75,
+			rotation: -0.5 * Math.PI,
+			circumference: 2 * Math.PI,
+			animation: {
+				animateRotate: true,
+				animateScale: true
+			},
+			legend: {
+				display: false
+			}
+		}, {
+			tooltips: {
+				enabled: false
+			},
+			cutoutPercentage: 75,
+			rotation: -0.5 * Math.PI,
+			circumference: 2 * Math.PI,
+			animation: {
+				animateRotate: true,
+				animateScale: true
+			},
+			legend: {
+				display: false
+			}
+		}, {
+			tooltips: {
+				enabled: false
+			},
+			cutoutPercentage: 75,
+			rotation: -0.5 * Math.PI,
+			circumference: 2 * Math.PI,
+			animation: {
+				animateRotate: true,
+				animateScale: true
+			},
+			legend: {
+				display: false
+			}
+		}];
+		var chart = [];
+		$(".chart").each(function(i) {
+			$(this).css({
+				"transform": "rotateY(180deg)"
+			});
+			chart[i] = new Chart($(this), {
+				type: 'doughnut',
+				data: data[i],
+				options: option[i]
+			});
+		});
+		chartAni = false;
+	
+
 
 /*****Products *****/
-
-//쓸데없는 작업
-
 
 var Ajax = (function(){
 	function Ajax(_file) {
