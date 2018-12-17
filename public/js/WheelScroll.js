@@ -69,7 +69,8 @@ var WheelScroll = (function() {
 		}, obj.speed * obj.speedGap, fn);
 	}
 	return WheelScroll;
-}());
+}())
+;
 
 var chartChk = true;
 function chartAni() {

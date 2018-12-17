@@ -1,0 +1,52 @@
+[debug] [2018-12-14T08:49:51.533Z] ----------------------------------------------------------------------
+[debug] [2018-12-14T08:49:51.541Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-12-14T08:49:51.541Z] CLI Version:   4.2.1
+[debug] [2018-12-14T08:49:51.541Z] Platform:      win32
+[debug] [2018-12-14T08:49:51.541Z] Node Version:  v8.12.0
+[debug] [2018-12-14T08:49:51.544Z] Time:          Fri Dec 14 2018 17:49:51 GMT+0900 (대한민국 표준시)
+[debug] [2018-12-14T08:49:51.544Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-12-14T08:49:51.579Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-14T08:49:51.581Z] > authorizing via signed-in user
+[debug] [2018-12-14T08:49:51.594Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/potfolio-pp23  
+ 
+[debug] [2018-12-14T08:49:52.671Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-14T08:49:52.676Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/potfolio-pp23  
+ 
+[debug] [2018-12-14T08:49:53.965Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\fbroot\포폴_js\ex05'...
+[info] 
+[debug] [2018-12-14T08:49:53.981Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/90937365158/clients/_:getWebAppConfig  
+ 
+[debug] [2018-12-14T08:49:55.022Z] <<< HTTP RESPONSE 200
+[info] i  hosting[potfolio-pp23]: Serving hosting files from: public
+[info] +  hosting[potfolio-pp23]: Local server: http://localhost:5000
+[debug] [2018-12-17T01:03:28.391Z] ----------------------------------------------------------------------
+[debug] [2018-12-17T01:03:28.394Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-12-17T01:03:28.395Z] CLI Version:   4.2.1
+[debug] [2018-12-17T01:03:28.395Z] Platform:      win32
+[debug] [2018-12-17T01:03:28.395Z] Node Version:  v8.12.0
+[debug] [2018-12-17T01:03:28.397Z] Time:          Mon Dec 17 2018 10:03:28 GMT+0900 (대한민국 표준시)
+[debug] [2018-12-17T01:03:28.397Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-12-17T01:03:28.435Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-17T01:03:28.436Z] > authorizing via signed-in user
+[debug] [2018-12-17T01:03:28.441Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-12-17T01:03:28.441Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2018-12-17T01:03:28.818Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-17T01:03:28.842Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/potfolio-pp23  
+ 
+[debug] [2018-12-17T01:03:29.910Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-17T01:03:29.912Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/potfolio-pp23  
+ 
+[debug] [2018-12-17T01:03:31.193Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\fbroot\포폴_js\ex05'...
+[info] 
+[debug] [2018-12-17T01:03:31.197Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/90937365158/clients/_:getWebAppConfig  
+ 
+[debug] [2018-12-17T01:03:32.140Z] <<< HTTP RESPONSE 200
+[info] i  hosting[potfolio-pp23]: Serving hosting files from: public
+[info] +  hosting[potfolio-pp23]: Local server: http://localhost:5000

@@ -2,12 +2,12 @@
     "result": [{
         "title": "best",
         "data": [{
-            "img": ["images/project/prd/NCS 송 포스터.jpg", "images/project/prd/NCS 송 포스터.jpg"],
+            "img": ["images/project/prd/web_1.jpg", "images/project/prd/web_1.jpg"],
             "title": "NCS Song Poster",
             "cate": "poster",
              "cont": "Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.",
-             "link":"#cont1",
-             "target":"modal"
+             "link":"https://naver.com",
+             "target":""
 
         }, {
             "img": ["images/project/prd/a_blue.jpg", "images/project/prd/a_blue.jpg"],
