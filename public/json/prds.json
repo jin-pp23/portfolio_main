@@ -3,10 +3,10 @@
         "title": "best",
         "data": [{
             "img": ["images/project/prd/web_1.jpg", "images/project/prd/web_1.jpg"],
-            "title": "NCS Song Poster",
+            "title": "PHILIPS Web",
             "cate": "poster",
              "cont": "Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.",
-             "link":"https://naver.com",
+             "link":"https://fhilips-pp23.firebaseapp.com/",
              "target":""
 
         }, {
