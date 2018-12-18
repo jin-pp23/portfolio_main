@@ -4,18 +4,18 @@
         "data": [{
             "img": ["images/project/prd/web_1.jpg", "images/project/prd/web_1.jpg"],
             "title": "PHILIPS Web",
-            "cate": "poster",
+            "cate": "Web",
              "cont": "Placerat tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur arcu nulla mattis fermentum adipiscing a et bibendum sed platea malesuada eget vestibulum tempor dolor eu leo ullamcorper et magnis habitant ultrices consectetur.",
              "link":"https://fhilips-pp23.firebaseapp.com/",
              "target":""
 
         }, {
             "img": ["images/project/prd/a_blue.jpg", "images/project/prd/a_blue.jpg"],
-            "title": "아카데미 Poster",
-            "cate": "poster",
+            "title": "Lens Web",
+            "cate": "Web",
             "cont": "Himenaeos parturient nam a justo placerat lorem erat pretium a fusce pharetra pretium enim sagittis ut nunc neque torquent sem a leo. Dictumst himenaeos primis torquent ridiculus.",
-            "link":"#cont2",
-            "target":"modal"
+            "link":"https://lens-pp23.firebaseapp.com/",
+            "target":""
         }, {
             "img": ["images/project/prd/green.jpg", "images/project/prd/green.jpg"],
             "title": "아카데미 Poster",
