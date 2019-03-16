@@ -328,11 +328,11 @@ background-size: cover; */}
     .ab_main_txt{top: 50%;left: 50%;transform: translate(-50%,-50%);
         z-index: 998; height: 30%;}
     .ab_tit{padding-top:3vh; }
-    .txt_top div h2{display: block;margin-top: 3%;}
-    .txt_top div p{display: block;}
+    .txt_top div h2,.txt-bottom h2{display: block;margin-top: 3%; font-size: 5.5vh;}
+    .txt_top div p{display: block; font-size: 2.5vh; color: #8791a1;}
     .rel_back:first-child{display: none;}
     .chart_wrap{width: 100%;display: block;position: relative;}
-    .chart_wrap p{top: 50%;left: 50%;transform: translate(-50%,-50%);}
+    .chart_wrap p{top: 50%;left: 50%;transform: translate(-50%,-50%);font-size: 4vh; color: #8791a1;}
   
     .ab_work{height: 100%;}
     .ab_work_pe{position: static;transform: none;width: 100%;}
