@@ -27,3 +27,28 @@
 [debug] [2019-03-16T06:24:16.523Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: public
 [info] +  hosting: Local server: http://localhost:5000
+[debug] [2019-03-16T06:30:58.475Z] ----------------------------------------------------------------------
+[debug] [2019-03-16T06:30:58.479Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-03-16T06:30:58.479Z] CLI Version:   6.2.2
+[debug] [2019-03-16T06:30:58.479Z] Platform:      win32
+[debug] [2019-03-16T06:30:58.479Z] Node Version:  v10.13.0
+[debug] [2019-03-16T06:30:58.484Z] Time:          Sat Mar 16 2019 15:30:58 GMT+0900 (GMT+09:00)
+[debug] [2019-03-16T06:30:58.485Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-03-16T06:30:58.502Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-03-16T06:30:58.503Z] > authorizing via signed-in user
+[debug] [2019-03-16T06:30:58.503Z] [iam] checking project potfolio-pp23 for permissions ["firebase.projects.get"]
+[debug] [2019-03-16T06:30:58.507Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/potfolio-pp23:testIamPermissions  
+
+[debug] [2019-03-16T06:30:59.567Z] <<< HTTP RESPONSE 200
+[debug] [2019-03-16T06:30:59.570Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/potfolio-pp23  
+ 
+[debug] [2019-03-16T06:31:00.417Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\portfolio_main'...
+[info] 
+[debug] [2019-03-16T06:31:00.421Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/90937365158/clients/_:getWebAppConfig  
+ 
+[debug] [2019-03-16T06:31:01.312Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000

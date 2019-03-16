@@ -283,6 +283,8 @@ background-size: cover; */}
     .txt-bottom h2{text-align: center;}
     .ab_work_pe{width: 80%;}
 
+    .chart_wrap{margin-top:0;}
+
     .prds{width: 80%;}
     .prd_nav > li {font-size: 2vh;}
     .prd {font-size: 1vh;}
@@ -334,14 +336,14 @@ background-size: cover; */}
   
     .ab_work{height: 100%;}
     .ab_work_pe{position: static;transform: none;width: 100%;}
-   .rel_back{overflow: hidden;height: 100%;}
+   .rel_back{overflow:none ;height: 100%;}
    .rel_back img{width: 200%; height: 100%;}
    
-   .wrap{width: auto;height: auto;}
+   .wrap{width: auto;height: auto;padding-top: 3%;}
    .chart_wrap{padding:3% 30%;}
    .txt-bottom{margin-top: 8%;}
 
-   .time_line{height: 220%;}
+   .time_line{height: auto;}
 
    .pro_main_ban{width: 100%;}
    .pro_main_txt{z-index: 998;z-index: 998;top: 50%;left: 50%;transform: translate(-50%,-50%);height: 30%;}
